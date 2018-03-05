@@ -1,15 +1,11 @@
-#pragma once
+#ifndef PLAYER_H
+#define PLAYER_H
 
 struct Player
 {
-    char token;
-
-    Player(char token)
-    {
-        this->token = token;
-    }
-
-
-    // Player(char token) : token(token){};
+    Player(char token);
+    
     char getToken();
 };
+
+#endif
